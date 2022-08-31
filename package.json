@@ -1,11 +1,11 @@
 {
-  "name": "imey7bot",
+  "name": "zerobot",
   "version": "3.0.0",
   "description": "WhatsApp Using Lib Baileys Multi Device",
   "main": "index.js",
   "type": "commonjs",
   "scripts": {
-    "start": "node index.js"
+    "start": "forever index.js"
   },
   "keywords": [
     "termux",
