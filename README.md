@@ -1,3 +1,4 @@
+![](https://github.com/Your_Repository_Name/Your_GIF_Name.gif)
 <!-- Requirements -->
 <b><details><summary>Requirements</summary></b>
 * Some Text Editor
