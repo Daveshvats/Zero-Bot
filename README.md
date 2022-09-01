@@ -1,4 +1,4 @@
-![](https://github.com/Your_Repository_Name/Your_GIF_Name.gif)
+![](https://github.com/Daveshvats/Zero-Bot/blob/master/team%20zero%20(1).gif)
 <!-- Requirements -->
 <b><details><summary>Requirements</summary></b>
 * Some Text Editor
