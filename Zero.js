@@ -5651,6 +5651,10 @@ const xeonspace = space[Math.floor(Math.random() * space.length)]
 buffer = await getBuffer(`https://i.ibb.co/305yt26/bf84f20635dedd5dde31e7e5b6983ae9.jpg`)
 Zero.sendMessage(m.chat, { image: buffer, caption: xeonspace}, {quoted:m})
 break
+		case 'developers': case '/developer': case 'developer':
+			buffer = await getBuffer(`https://i.ibb.co/3SRxFcx/team-zero-1.gif`)
+			Zero.sendMessage(m.chat, { image: buffer, caption: "Developers" gifPlayback: true}, {quoted:m})
+break
   case '918684934035': case '@918684934035': case'hola': case'ola': case 'hi': case'holi': case'saludos': case'commandos':
             Zero.sendMessage(m.chat,{ text: '❂ᴜꜱᴇ /ᴍᴇɴᴜ ᴛᴏ ʀᴇᴠᴇᴀʟ ʟɪꜱᴛ ᴏꜰ ᴄᴏᴍᴍᴀɴᴅs❂' }, {quoted:m})
             
