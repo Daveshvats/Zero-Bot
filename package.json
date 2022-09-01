@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "commonjs",
   "scripts": {
-    "start": "forever index.js"
+    "start": "forever start index.js"
   },
   "keywords": [
     "termux",
