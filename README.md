@@ -17,7 +17,7 @@ Add FFmpeg to PATH environment variable
 <b><details><summary>Start via Heroku</summary></b>
 
 * Scan QR In Your Whatsapp From [Here](https://replit.com/@vatsdavesh/Zero-Chatbot-Qr-Code-Generator?v=1)
-* Fork This Repo By Clicking [Here](https://github.com/nexusNw/Gojo-Satoru/fork)
+* Fork This Repo By Clicking [Here](https://github.com/Daveshvats/Zero-Bot/fork)
 * then Deploy The Bot From [Here](https://heroku.com/deploy)
 * Wait 5-10 Min To Deploy 
 * After Deploying On The Worker And Check The Logs
@@ -39,8 +39,8 @@ Add FFmpeg to PATH environment variable
 > pkg install ffmpeg -y 
 > pkg install wget
 > pkg install imagemagick -y
-> git clone https://github.com/nexusNw/Gojo-Satoru
-> cd Gojo-Satoru
+> git clone https://github.com/Daveshvats/Zero-Bot
+> cd Zero-bot
 > npm install
 ```
 </details>
