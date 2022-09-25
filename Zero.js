@@ -1263,7 +1263,7 @@ break
 	    }
 	    break
         case 'yts': case 'ytsearch': {
-            if (!text) return replay(`Example : ${prefix + command} Anime Story Whatsapp`)
+            if (!text) return reply(`Example : ${prefix + command} Anime Story Whatsapp`)
             let yts = require("yt-search")
             let search = await yts(text)
             let teks = 'YouTube Search\n\n Result From '+text+'\n\n'
@@ -1716,44 +1716,44 @@ case 'cat boy': case '/catboy' : case 'catboy':
         break
         case 'cosplayer': case '/cosplayer': case 'cosplay2':
             m.reply(mess.wait)
-            Zero.sendMessage(m.chat, { image: { url:"https://zenzapis.xyz/randomimage/cosplay?apikey=7c59f79077"}, caption: `cosplayer` }, { quoted: m})
+            Zero.sendMessage(m.chat, { image: { url:"https://zenzapis.xyz/randomimage/cosplay?apikey=e2392d614475"}, caption: `cosplayer` }, { quoted: m})
         break
         
                           
         case 'aesthetic': case '/aesthetic': case 'aestheticimg':
             m.reply(mess.wait)
-            Zero.sendMessage(m.chat, { image: { url:"https://zenzapis.xyz/randomimage/aesthetic?apikey=7c59f79077"}, caption: `Aesthetic` }, { quoted: m})
+            Zero.sendMessage(m.chat, { image: { url:"https://zenzapis.xyz/randomimage/aesthetic?apikey=e2392d614475"}, caption: `Aesthetic` }, { quoted: m})
         break
         
         case 'randompp': case '/randompp': case 'profilepic':
             m.reply(mess.wait)
-            Zero.sendMessage(m.chat, { image: { url:"https://zenzapis.xyz/randomimage/profil?apikey=7c59f79077"}, caption: `RandomPP` }, { quoted: m})
+            Zero.sendMessage(m.chat, { image: { url:"https://zenzapis.xyz/randomimage/profil?apikey=e2392d614475"}, caption: `RandomPP` }, { quoted: m})
         break
         
         case 'wall': case '/wall': case 'wallhd': case '/wallhd' :
             m.reply(mess.wait)
-            Zero.sendMessage(m.chat, { image: { url:"https://zenzapis.xyz/randomimage/wallhp?apikey=7c59f79077"}, caption: `wallpaper` }, { quoted: m})
+            Zero.sendMessage(m.chat, { image: { url:"https://zenzapis.xyz/randomimage/wallhp?apikey=e2392d614475"}, caption: `wallpaper` }, { quoted: m})
         break
         case 'waifuwall': case '/waifuwall': case 'aniwall': case '/aniwall' :
             m.reply(mess.wait)
-            Zero.sendMessage(m.chat, { image: { url:"https://zenzapis.xyz/api/anime/sfw/wallpaper?apikey=7c59f79077"}, caption: `wallpaper` }, { quoted: m})
+            Zero.sendMessage(m.chat, { image: { url:"https://zenzapis.xyz/api/anime/sfw/wallpaper?apikey=e2392d614475"}, caption: `wallpaper` }, { quoted: m})
         break
         
         case 'anime': case '/anime': case 'animehd': case '/animeimg' :
             m.reply(mess.wait)
-            Zero.sendMessage(m.chat, { image: { url:"https://zenzapis.xyz/randomanime/anime?apikey=7c59f79077"}, caption: `done` }, { quoted: m})
+            Zero.sendMessage(m.chat, { image: { url:"https://zenzapis.xyz/randomanime/anime?apikey=e2392d614475"}, caption: `done` }, { quoted: m})
         break
         
         case 'randomminecraft': case '/minecraft': case '/randomminecraft': case 'minecraft' :
             m.reply(mess.wait)
-            axios.get(`https://zenzapis.xyz/randomimage/minecraft?apikey=7c59f79077`)
+            axios.get(`https://zenzapis.xyz/randomimage/minecraft?apikey=e2392d614475`)
             .then(({data}) => {
             Zero.sendImage(m.chat, data.url,m )})
             break
             
             case 'randompubg': case '/pubg': case '/randompubg': case 'bgmi' : case '/bgmi' :
                 m.reply(mess.wait)
-                Zero.sendMessage(m.chat, { image: { url:"https://zenzapis.xyz/randomimage/pubg?apikey=7c59f79077"}, caption: `done` }, { quoted: m})
+                Zero.sendMessage(m.chat, { image: { url:"https://zenzapis.xyz/randomimage/pubg?apikey=e2392d614475"}, caption: `done` }, { quoted: m})
             break
             case '/meme': case'meme':
                 m.reply(mess.wait)
@@ -1798,52 +1798,52 @@ Cieeee, What's Going On❤️💖👀`
             }
             break
             case 'is':
-				if (!text) return replay(`Use Text, Example : ${prefix + command} he married `)
+				if (!text) return reply(`Use Text, Example : ${prefix + command} he married `)
 					const apa = [`Yes`, `No`, `It Could Be`, `Thats right`]
 					const kah = apa[Math.floor(Math.random() * apa.length)]
-Zero.sendMessage(from, { text: `Question : Is ${q}\nAnswer : ${kah}` }, { quoted: m })
+Zero.sendMessage(m.chat, { text: `Question : Is ${q}\nAnswer : ${kah}` }, { quoted: m })
 
 					break
 					            case 'what':
-				if (!text) return replay(`Use Text, Example : ${prefix + command} he married `)
+				if (!text) return reply(`Use Text, Example : ${prefix + command} he married `)
 					const lel = [`Ask Your Gf`, `I Dont Know`, `I Don't Know, Ask Your Father`]
 					const kahk = lel[Math.floor(Math.random() * lel.length)]
-Zero.sendMessage(from, { text: `Question : What ${q}\nAnswer : ${kahk}` }, { quoted: m })
+Zero.sendMessage(m.chat, { text: `Question : What ${q}\nAnswer : ${kahk}` }, { quoted: m })
 
 					break
 case 'can':
-				if (!text) return replay(`Use Text, Example : ${prefix + command} you fuck her lol `)
+				if (!text) return reply(`Use Text, Example : ${prefix + command} you fuck her lol `)
 					const bisa = [`Can`,`Can't`,`Cannot`,`Of Course You Can!!!`]
 					const ga = bisa[Math.floor(Math.random() * bisa.length)]
-Zero.sendMessage(from, { text: `Question : Can ${q}\nAnswer : ${ga}` }, { quoted: m })
+Zero.sendMessage(m.chat, { text: `Question : Can ${q}\nAnswer : ${ga}` }, { quoted: m })
 
 					break
 case 'how':
-				if (!text) return replay(`Use Text, Example : ${prefix + command} is my face`)
+				if (!text) return reply(`Use Text, Example : ${prefix + command} is my face`)
 					const gimana = [`It's Okay`, `It's Difficult Bro`, `Sorry Bot Can't Answer`, `Try Searching On Google`,`Holy Cow! Really???`,`Dizzy Ah`,`Ohhh I See:(`,`The Patient, Boss:(`,`How Are You?`]
 					const ya = gimana[Math.floor(Math.random() * gimana.length)]
-Zero.sendMessage(from, { text: `Question : ${q}\nAnswer : How ${ya}` }, { quoted: m })
+Zero.sendMessage(m.chat, { text: `Question :How ${q}\nAnswer :  ${ya}` }, { quoted: m })
 
 					break
 case 'rate':
-				if (!text) return replay(`Use Text, Example : ${prefix + command} My Dp`)
+				if (!text) return reply(`Use Text, Example : ${prefix + command} My Dp`)
 					const ra = ['1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26','27','28','29','30','31','32','33','34','35','36','37','38','39','40','41','42','43','44','45','46','47','48','49','50','51','52','53','54','55','56','57','58','59','60','61','62','63','64','65','66','67','68','69','70','71','72','73','74','75','76','77','78','79','80','81','82','83','84','85','86','87','88','89','90','91','92','93','94','95','96','97','98','99','100']
 					const te = ra[Math.floor(Math.random() * ra.length)]
-Zero.sendMessage(from, { text: `Rate : ${q}\nAnswer : *${te}%*` }, { quoted: m })
+Zero.sendMessage(m.chat, { text: `Rate : ${q}\nAnswer : *${te}%*` }, { quoted: m })
 
 					break
   case 'handsomecheck':
-				if (!text) return replay(`Tag Someone, Example : ${prefix + command} @Zero`)
+				if (!text) return reply(`Tag Someone, Example : ${prefix + command} @Zero`)
 					const gan = ['1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26','27','28','29','30','31','32','33','34','35','36','37','38','39','40','41','42','43','44','45','46','47','48','49','50','51','52','53','54','55','56','57','58','59','60','61','62','63','64','65','66','67','68','69','70','71','72','73','74','75','76','77','78','79','80','81','82','83','84','85','86','87','88','89','90','91','92','93','94','95','96','97','98','99','100']
 					const teng = gan[Math.floor(Math.random() * gan.length)]
-Zero.sendMessage(from, { text: `*${command}*\n\nName : ${q}\nAnswer : *${teng}%*` }, { quoted: m })
+Zero.sendMessage(m.chat, { text: `*${command}*\n\nName : ${q}\nAnswer : *${teng}%*` }, { quoted: m })
 
 					break
 case 'beautifulcheck':
-				if (!text) return replay(`Tag Someone, Example : ${prefix + command} @Zero`)
+				if (!text) return reply(`Tag Someone, Example : ${prefix + command} @Zero`)
 					const can = ['1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26','27','28','29','30','31','32','33','34','35','36','37','38','39','40','41','42','43','44','45','46','47','48','49','50','51','52','53','54','55','56','57','58','59','60','61','62','63','64','65','66','67','68','69','70','71','72','73','74','75','76','77','78','79','80','81','82','83','84','85','86','87','88','89','90','91','92','93','94','95','96','97','98','99','100']
 					const tik = can[Math.floor(Math.random() * can.length)]
-Zero.sendMessage(from, { text: `*${command}*\n\nNama : ${q}\nAnswer : *${tik}%*` }, { quoted: m })
+Zero.sendMessage(m.chat, { text: `*${command}*\n\nNama : ${q}\nAnswer : *${tik}%*` }, { quoted: m })
 
 					break
 case 'awesomecheck':
@@ -1856,16 +1856,16 @@ case 'awesomecheck':
                  case 'prettycheck':
                     case 'lovelycheck':
                       case 'uglycheck':
-				if (!text) return replay(`Tag Someone, Example : ${prefix + command} @Zero`)
+				if (!text) return reply(`Tag Someone, Example : ${prefix + command} @Zero`)
 					const sangeh = ['1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26','27','28','29','30','31','32','33','34','35','36','37','38','39','40','41','42','43','44','45','46','47','48','49','50','51','52','53','54','55','56','57','58','59','60','61','62','63','64','65','66','67','68','69','70','71','72','73','74','75','76','77','78','79','80','81','82','83','84','85','86','87','88','89','90','91','92','93','94','95','96','97','98','99','100']
 					const sange = sangeh[Math.floor(Math.random() * sangeh.length)]
-Zero.sendMessage(from, { text: `*${command}*\n\nName : ${q}\nAnswer : *${sange}%*` }, { quoted: m })
+Zero.sendMessage(m.chat, { text: `*${command}*\n\nName : ${q}\nAnswer : *${sange}%*` }, { quoted: m })
 					break
 					case 'charactercheck':
-					if (!text) return replay(`Tag Someone, Example : ${prefix + command} @Zero`)
+					if (!text) return reply(`Tag Someone, Example : ${prefix + command} @Zero`)
 					const Zeroy =['Compassionate','Generous','Grumpy','Forgiving','Obedient','Good','Simp','Kind-Hearted','patient','UwU','top, anyway','Helpful']
 					const taky = Zeroy[Math.floor(Math.random() * Zeroy.length)]
-					Zero.sendMessage(from, { text: `Character Check : ${q}\nAnswer : *${taky}*` }, { quoted: m })
+					Zero.sendMessage(m.chat, { text: `Character Check : ${q}\nAnswer : *${taky}*` }, { quoted: m })
 				     break
                     case 'stupid':
       case 'foolish':
@@ -1936,13 +1936,13 @@ Zero.sendMessage(from, { text: `*${command}*\n\nName : ${q}\nAnswer : *${sange}%
             }
             break
 case 'when':
-				if (!text) return replay(`Use Text, Example : ${prefix + command} will i get married `)
+				if (!text) return reply(`Use Text, Example : ${prefix + command} will i get married `)
 					const kapan = ['5 More Days', '10 More Days', '15 More Days','20 More Days', '25 More Days','30 More Days','35 More Days','40 More Days','45 More Days','50 More Days','55 More Days','60 More Days','65 More Days','70 More Days','75 More Days','80 More Days','85 More Days','90 More Days','100 More Days','5 Months More', '10 Months More', '15 Months More','20 Months More', '25 Months More','30 Months More','35 Months More','40 Months More','45 Months More','50 Months More','55 Months More','60 Months More','65 Months More','70 Months More','75 Months More','80 Months More','85 Months More','90 Months More','100 Months More','1 More Year','2 More Years','3 More Years','4 More Years','5 More Years','Tomorrow','The Day After Tomorrow',`After This Command, You Too ${q}`]
 					const kapankah = kapan[Math.floor(Math.random() * kapan.length)]
-Zero.sendMessage(from, { text: `Question : ${q}\nAnswer : *${kapankah}*` }, { quoted: m })
+Zero.sendMessage(m.chat, { text: `Question : ${q}\nAnswer : *${kapankah}*` }, { quoted: m })
 					break
 case 'wangy':
-              if (!text) return replay(`Use Text, Example : ${prefix + command} hinata`)
+              if (!text) return reply(`Use Text, Example : ${prefix + command} hinata`)
               qq = q.toUpperCase()
               awikwok = `${qq} ${qq} ${qq} ❤️ ❤️ ❤️ WANGY WANGY WANGY WANGY HU HA HU HA HU HA, aaah the smell of hair ${qq} smelly i want to smell the fragrance ${qq} AAAAAAAAH ~ Her hair.... aaah i want to stroke her hair too ~~ AAAAAH ${qq} first time out in anime is cute too ❤️ ❤️ ❤️ so AAAAAAAH ${qq} AAAAAA LUCCUUUUUUUUUUUUU............ ${qq} AAAAAAAAAAAAAAAAAAAAGH ❤️ ❤️ ❤️what ? ${qq} it's not real ? Just HELL you say ? no, no no no no no no no no no no no no no no no !! I DON'T CARE ABOUT THE REALITY, I DON'T CARE. ❤️ ❤️ ❤️ ${qq} me ... ${qq} on the laptop watching me, ${qq} .. you believe in me ? aaaaaaaaaaah thanks ${q} I don't want to give up ${qq} aaaaaah ❤️ ❤️ ❤️ YEAAAAAAAAAAAH I STILL HAVE ${qq} ALSO NOT THE SAME AAAAAAAAAAAAAAH`
              reply(awikwok)
@@ -1953,7 +1953,7 @@ case 'wangy':
         let dwnld = await quoted.download()
         let { floNime } = require('./lib/uploader')
         let fatGan = await floNime(dwnld)
-        buffer = `https://zenzapis.xyz/photoeditor/colorify?url=${fatGan.result.url}&apikey=7c59f79077`
+        buffer = `https://zenzapis.xyz/photoeditor/colorify?url=${fatGan.result.url}&apikey=e2392d614475`
         Zero.sendMessage(m.chat, {image:{url:buffer}, caption:"Here you go!"}, {quoted:m})
         }
         }
@@ -1964,7 +1964,7 @@ case 'wangy':
             let dwnld = await quoted.download()
             let { floNime } = require('./lib/uploader')
             let fatGan = await floNime(dwnld)
-            buffer = `https://zenzapis.xyz/photoeditor/horny?url=${fatGan.result.url}&apikey=7c59f79077`
+            buffer = `https://zenzapis.xyz/photoeditor/horny?url=${fatGan.result.url}&apikey=e2392d614475`
             Zero.sendMessage(m.chat, {image:{url:buffer}, caption:"Here you go!"}, {quoted:m})
             }
             }
@@ -1975,7 +1975,7 @@ case 'wangy':
                 let dwnld = await quoted.download()
                 let { floNime } = require('./lib/uploader')
                 let fatGan = await floNime(dwnld)
-                buffer = `https://zenzapis.xyz/photoeditor/gay?url=${fatGan.result.url}&apikey=7c59f79077`
+                buffer = `https://zenzapis.xyz/photoeditor/gay?url=${fatGan.result.url}&apikey=e2392d614475`
                 Zero.sendMessage(m.chat, {image:{url:buffer}, caption:"Here you go!"}, {quoted:m})
                 }
                 }
@@ -1986,7 +1986,7 @@ case 'wangy':
                         let dwnld = await quoted.download()
                         let { floNime } = require('./lib/uploader')
                         let fatGan = await floNime(dwnld)
-                        buffer = `https://zenzapis.xyz/photoeditor/contrast?url=${fatGan.result.url}&apikey=7c59f79077`
+                        buffer = `https://zenzapis.xyz/photoeditor/contrast?url=${fatGan.result.url}&apikey=e2392d614475`
                         Zero.sendMessage(m.chat, {image:{url:buffer}, caption:"Here you go!"}, {quoted:m})
                         }
                         }
@@ -1997,7 +1997,7 @@ case 'wangy':
                             let dwnld = await quoted.download()
                             let { floNime } = require('./lib/uploader')
                             let fatGan = await floNime(dwnld)
-                            buffer = `https://zenzapis.xyz/photoeditor/pixelate?url=${fatGan.result.url}&apikey=7c59f79077`
+                            buffer = `https://zenzapis.xyz/photoeditor/pixelate?url=${fatGan.result.url}&apikey=e2392d614475`
                             Zero.sendMessage(m.chat, {image:{url:buffer}, caption:"Here you go!"}, {quoted:m})
                             }
                             }
@@ -2008,7 +2008,7 @@ case 'wangy':
                                 let dwnld = await quoted.download()
                                 let { floNime } = require('./lib/uploader')
                                 let fatGan = await floNime(dwnld)
-                                buffer = `https://zenzapis.xyz/photoeditor/sepia?url=${fatGan.result.url}&apikey=7c59f79077`
+                                buffer = `https://zenzapis.xyz/photoeditor/sepia?url=${fatGan.result.url}&apikey=e2392d614475`
                                 Zero.sendMessage(m.chat, {image:{url:buffer}, caption:"Here you go!"}, {quoted:m})
                                 }
                                 }
@@ -2019,7 +2019,7 @@ case 'wangy':
                                     let dwnld = await quoted.download()
                                     let { floNime } = require('./lib/uploader')
                                     let fatGan = await floNime(dwnld)
-                                    buffer = `https://zenzapis.xyz/photoeditor/brighten?url=${fatGan.result.url}&apikey=7c59f79077`
+                                    buffer = `https://zenzapis.xyz/photoeditor/brighten?url=${fatGan.result.url}&apikey=e2392d614475`
                                     Zero.sendMessage(m.chat, {image:{url:buffer}, caption:"Here you go!"}, {quoted:m})
                                     }
                                     }
@@ -2030,7 +2030,7 @@ case 'wangy':
                                         let dwnld = await quoted.download()
                                         let { floNime } = require('./lib/uploader')
                                         let fatGan = await floNime(dwnld)
-                                        buffer = `https://zenzapis.xyz/photoeditor/greyscale?url=${fatGan.result.url}&apikey=7c59f79077`
+                                        buffer = `https://zenzapis.xyz/photoeditor/greyscale?url=${fatGan.result.url}&apikey=e2392d614475`
                                         Zero.sendMessage(m.chat, {image:{url:buffer}, caption:"Here you go!"}, {quoted:m})
                                         }
                                         }
@@ -2041,7 +2041,7 @@ case 'wangy':
                                             let dwnld = await quoted.download()
                                             let { floNime } = require('./lib/uploader')
                                             let fatGan = await floNime(dwnld)
-                                            buffer = `https://zenzapis.xyz/photoeditor/circle?url=${fatGan.result.url}&apikey=7c59f79077`
+                                            buffer = `https://zenzapis.xyz/photoeditor/circle?url=${fatGan.result.url}&apikey=e2392d614475`
                                             Zero.sendMessage(m.chat, {image:{url:buffer}, caption:"Here you go!"}, {quoted:m})
                                             }
                                             }
@@ -2053,7 +2053,7 @@ case 'wangy':
                                                 let dwnld = await quoted.download()
                                                 let { floNime } = require('./lib/uploader')
                                                 let fatGan = await floNime(dwnld)
-                                                buffer = `https://zenzapis.xyz/photoeditor/blur?url=${fatGan.result.url}&apikey=7c59f79077`
+                                                buffer = `https://zenzapis.xyz/photoeditor/blur?url=${fatGan.result.url}&apikey=e2392d614475`
                                                 Zero.sendMessage(m.chat, {image:{url:buffer}, caption:"Here you go!"}, {quoted:m})
                                                 }
                                                 }
@@ -2064,7 +2064,7 @@ case 'wangy':
                                                     let dwnld = await quoted.download()
                                                     let { floNime } = require('./lib/uploader')
                                                     let fatGan = await floNime(dwnld)
-                                                    buffer = `https://zenzapis.xyz/photoeditor/invert?url=${fatGan.result.url}&apikey=7c59f79077`
+                                                    buffer = `https://zenzapis.xyz/photoeditor/invert?url=${fatGan.result.url}&apikey=e2392d614475`
                                                     Zero.sendMessage(m.chat, {image:{url:buffer}, caption:"Here you go!"}, {quoted:m})
                                                     }
                                                     }
@@ -2076,7 +2076,7 @@ case 'wangy':
                                                         let dwnld = await quoted.download()
                                                         let { floNime } = require('./lib/uploader')
                                                         let fatGan = await floNime(dwnld)
-                                                        buffer = `https://zenzapis.xyz/photoeditor/2x?url=${fatGan.result.url}&apikey=7c59f79077`
+                                                        buffer = `https://zenzapis.xyz/photoeditor/2x?url=${fatGan.result.url}&apikey=e2392d614475`
                                                         Zero.sendMessage(m.chat, {image:{url:buffer}, caption:"Here you go!"}, {quoted:m})
                                                         }
                                                         }
@@ -2087,7 +2087,7 @@ case 'wangy':
                                                             let dwnld = await quoted.download()
                                                             let { floNime } = require('./lib/uploader')
                                                             let fatGan = await floNime(dwnld)
-                                                            buffer = `https://zenzapis.xyz/photoeditor/2x?url=${fatGan.result.url}&apikey=7c59f79077`
+                                                            buffer = `https://zenzapis.xyz/photoeditor/2x?url=${fatGan.result.url}&apikey=e2392d614475`
                                                             Zero.sendMessage(m.chat, {image:{url:buffer}, caption:"Here you go!"}, {quoted:m})
                                                             }
                                                             }
@@ -2098,7 +2098,7 @@ case 'wangy':
                                                                 let dwnld = await quoted.download()
                                                                 let { floNime } = require('./lib/uploader')
                                                                 let fatGan = await floNime(dwnld)
-                                                                buffer = `https://zenzapis.xyz/photoeditor/upscale?url=${fatGan.result.url}&apikey=7c59f79077`
+                                                                buffer = `https://zenzapis.xyz/photoeditor/upscale?url=${fatGan.result.url}&apikey=e2392d614475`
                                                                 Zero.sendMessage(m.chat, {image:{url:buffer}, caption:"Here you go!"}, {quoted:m})
                                                                 }
                                                                 }
@@ -2110,7 +2110,7 @@ case 'wangy':
                                                                     let dwnld = await quoted.download()
                                                                     let { floNime } = require('./lib/uploader')
                                                                     let fatGan = await floNime(dwnld)
-                                                                    buffer = `https://zenzapis.xyz/photoeditor/glass?url=${fatGan.result.url}&apikey=7c59f79077`
+                                                                    buffer = `https://zenzapis.xyz/photoeditor/glass?url=${fatGan.result.url}&apikey=e2392d614475`
                                                                     Zero.sendMessage(m.chat, {image:{url:buffer}, caption:"Here you go!"}, {quoted:m})
                                                                     }
                                                                     }
@@ -2124,7 +2124,7 @@ case 'wangy':
                     floNime
                 } = require('./lib/uploader')
                 let fatGans = await floNime(dwnld)
-            buffer = `https://zenzapis.xyz/photoeditor/wasted?url=${fatGans.result.url}&apikey=7c59f79077`
+            buffer = `https://zenzapis.xyz/photoeditor/wasted?url=${fatGans.result.url}&apikey=e2392d614475`
             Zero.sendMessage(m.chat, {image:{url:buffer}, caption:"Here you go!"}, {quoted:m})}  }
             break
          case 'wanted':case '/wanted':{
@@ -2133,7 +2133,7 @@ case 'wangy':
                 let dwnld = await quoted.download()
                 let { floNime } = require('./lib/uploader')
                 let fatGan = await floNime(dwnld)
-                buffer = `https://zenzapis.xyz/photoeditor/wanted?url=${fatGan.result.url}&apikey=7c59f79077`
+                buffer = `https://zenzapis.xyz/photoeditor/wanted?url=${fatGan.result.url}&apikey=e2392d614475`
                 Zero.sendMessage(m.chat, {image:{url:buffer}, caption:"Here you go!"}, {quoted:m})}  }
                 break
          case 'gun':case '/gun':{
@@ -2142,7 +2142,7 @@ case 'wangy':
                     let dwnld = await quoted.download()
                     let { floNime } = require('./lib/uploader')
                     let fatGan = await floNime(dwnld)
-                    buffer = `https://zenzapis.xyz/photoeditor/gun?url=${fatGan.result.url}&apikey=7c59f79077`
+                    buffer = `https://zenzapis.xyz/photoeditor/gun?url=${fatGan.result.url}&apikey=e2392d614475`
                     Zero.sendMessage(m.chat, {image:{url:buffer}, caption:"Here you go!"}, {quoted:m})}  }
                     break
         case 'gun':case '/gun':{
@@ -2151,7 +2151,7 @@ case 'wangy':
                         let dwnld = await quoted.download()
                         let { floNime } = require('./lib/uploader')
                         let fatGan = await floNime(dwnld)
-                        buffer = `https://zenzapis.xyz/photoeditor/gun?url=${fatGan.result.url}&apikey=7c59f79077`
+                        buffer = `https://zenzapis.xyz/photoeditor/gun?url=${fatGan.result.url}&apikey=e2392d614475`
                         Zero.sendMessage(m.chat, {image:{url:buffer}, caption:"Here you go!"}, {quoted:m})}  }
                         break
         case '/passed':case 'passed':{
@@ -2160,7 +2160,7 @@ case 'wangy':
                             let dwnld = await quoted.download()
                             let { floNime } = require('./lib/uploader')
                             let fatGan = await floNime(dwnld)
-                            buffer = `https://zenzapis.xyz/photoeditor/passed?url=${fatGan.result.url}&apikey=7c59f79077`
+                            buffer = `https://zenzapis.xyz/photoeditor/passed?url=${fatGan.result.url}&apikey=e2392d614475`
                             Zero.sendMessage(m.chat, {image:{url:buffer}, caption:"Here you go!"}, {quoted:m})}  }
                             break               
         case 'comrade':case '/comrade':{
@@ -2169,7 +2169,7 @@ case 'wangy':
                                 let dwnld = await quoted.download()
                                 let { floNime } = require('./lib/uploader')
                                 let fatGan = await floNime(dwnld)
-                                buffer = `https://zenzapis.xyz/photoeditor/comrade?url=${fatGan.result.url}&apikey=7c59f79077`
+                                buffer = `https://zenzapis.xyz/photoeditor/comrade?url=${fatGan.result.url}&apikey=e2392d614475`
                                 Zero.sendMessage(m.chat, {image:{url:buffer}, caption:"Here you go!"}, {quoted:m})}  }
                                 break
         case 'pet':case '/pet':{
@@ -2178,7 +2178,7 @@ case 'wangy':
                                     let dwnld = await quoted.download()
                                     let { floNime } = require('./lib/uploader')
                                     let fatGan = await floNime(dwnld)
-                                    buffer = `https://zenzapis.xyz/photoeditor/pet?url=${fatGan.result.url}&apikey=7c59f79077`
+                                    buffer = `https://zenzapis.xyz/photoeditor/pet?url=${fatGan.result.url}&apikey=e2392d614475`
                                     Zero.sendMessage(m.chat, {video:{url:buffer},gifPlayback: true, caption:"Here you go!"}, {quoted:m})}  }
                                     break                                                                 
                                     case 'photomanipulation':{
@@ -2187,7 +2187,7 @@ case 'wangy':
                                         let dwnld = await quoted.download()
                                         let { floNime } = require('./lib/uploader')
                                         let fatGan = await floNime(dwnld)
-                                        axios.get(`https://zenzapis.xyz/photoeditor/photomanipulation?url=${fatGan.result.url}&apikey=7c59f79077`)
+                                        axios.get(`https://zenzapis.xyz/photoeditor/photomanipulation?url=${fatGan.result.url}&apikey=e2392d614475`)
                                         .then(({data}) => {
                                              Zero.sendImage(m.chat, data.result, mess.success, m)
                                         })}}
@@ -2198,7 +2198,7 @@ case 'wangy':
                                         let dwnld = await quoted.download()
                                         let { floNime } = require('./lib/uploader')
                                         let fatGan = await floNime(dwnld)
-                                        axios.get(`https://zenzapis.xyz/photoeditor/toonme/v1?url=${fatGan.result.url}&apikey=7c59f79077`)
+                                        axios.get(`https://zenzapis.xyz/photoeditor/toonme/v1?url=${fatGan.result.url}&apikey=e2392d614475`)
                                         .then(({data}) => {
                                              Zero.sendImage(m.chat, data.result, mess.success, m)
                                         })}}
@@ -2462,7 +2462,7 @@ if (/image/.test(mime)) {
 let dwnld = await quoted.download()
 let { floNime } = require('./lib/uploader')
 let fatGan = await floNime(dwnld)
-buffer = `https://zenzapis.xyz/photoeditor/jail?url=${fatGan.result.url}&apikey=7c59f79077`
+buffer = `https://zenzapis.xyz/photoeditor/jail?url=${fatGan.result.url}&apikey=e2392d614475`
 Zero.sendMessage(m.chat, {image:{url:buffer}, caption:"Here you go!"}, {quoted:m})
 }
 }
@@ -3835,103 +3835,103 @@ case 'firework': case 'skeleton': case 'blackpink': case 'sand': case 'glue': ca
                                //NSFW//
             case 'nsfwahegao': case '/nsfwahegao': case 'ahegao': case '/ahegao':
                 m.reply(mess.wait)
-                Zero.sendMessage(m.chat, { image: { url:"https://zenzapis.xyz/api/morensfw/ahegao?apikey=7c59f79077"}, caption: `Done` }, { quoted: m})
+                Zero.sendMessage(m.chat, { image: { url:"https://zenzapis.xyz/api/morensfw/ahegao?apikey=e2392d614475"}, caption: `Done` }, { quoted: m})
             break
             case 'nsfwass': case '/nsfwass': case 'ass': case '/ass':
                 m.reply(mess.wait)
-                Zero.sendMessage(m.chat, { image: { url:"https://zenzapis.xyz/api/morensfw/ass?apikey=7c59f79077"}, caption: `Done` }, { quoted: m})
+                Zero.sendMessage(m.chat, { image: { url:"https://zenzapis.xyz/api/morensfw/ass?apikey=e2392d614475"}, caption: `Done` }, { quoted: m})
             break
             case 'nsfwblowjob': case '/nsfwblowjob': case 'blowjob': case '/blowjob':
                 m.reply(mess.wait)
-                Zero.sendMessage(m.chat, { image: { url:"https://zenzapis.xyz/api/morensfw/blowjob?apikey=7c59f79077"}, caption: `Done` }, { quoted: m})
+                Zero.sendMessage(m.chat, { image: { url:"https://zenzapis.xyz/api/morensfw/blowjob?apikey=e2392d614475"}, caption: `Done` }, { quoted: m})
             break
             case 'nsfwcuckold': case '/nsfwcuckold': case 'cuckold': case '/cuckold':
                 m.reply(mess.wait)
-                Zero.sendMessage(m.chat, { image: { url:"https://zenzapis.xyz/api/morensfw/cuckold?apikey=7c59f79077"}, caption: `Done` }, { quoted: m})
+                Zero.sendMessage(m.chat, { image: { url:"https://zenzapis.xyz/api/morensfw/cuckold?apikey=e2392d614475"}, caption: `Done` }, { quoted: m})
             break
             case 'nsfwcum': case '/nsfwcum': case 'cum': case '/cum':
                 m.reply(mess.wait)
-                Zero.sendMessage(m.chat, { image: { url:"https://zenzapis.xyz/api/morensfw/cum?apikey=7c59f79077"}, caption: `Done` }, { quoted: m})
+                Zero.sendMessage(m.chat, { image: { url:"https://zenzapis.xyz/api/morensfw/cum?apikey=e2392d614475"}, caption: `Done` }, { quoted: m})
             break
             case 'nsfwero': case '/nsfwero': case 'ero': case '/ero':
                 m.reply(mess.wait)
-                Zero.sendMessage(m.chat, { image: { url:"https://zenzapis.xyz/api/morensfw/ero?apikey=7c59f79077"}, caption: `Done` }, { quoted: m})
+                Zero.sendMessage(m.chat, { image: { url:"https://zenzapis.xyz/api/morensfw/ero?apikey=e2392d614475"}, caption: `Done` }, { quoted: m})
             break
             case 'nsfwfemdom': case '/nsfwfemdom': case 'femdom': case '/femdom':
                 m.reply(mess.wait)
-                Zero.sendMessage(m.chat, { image: { url:"https://zenzapis.xyz/api/morensfw/femdom?apikey=7c59f79077"}, caption: `Done` }, { quoted: m})
+                Zero.sendMessage(m.chat, { image: { url:"https://zenzapis.xyz/api/morensfw/femdom?apikey=e2392d614475"}, caption: `Done` }, { quoted: m})
             break
             case 'nsfwfoot': case '/nsfwfoot': case 'foot': case '/foot':
                 m.reply(mess.wait)
-                Zero.sendMessage(m.chat, { image: { url:"https://zenzapis.xyz/api/morensfw/foot?apikey=7c59f79077"}, caption: `Done` }, { quoted: m})
+                Zero.sendMessage(m.chat, { image: { url:"https://zenzapis.xyz/api/morensfw/foot?apikey=e2392d614475"}, caption: `Done` }, { quoted: m})
             break
             case 'nsfwgangbang': case '/nsfwgangbang': case 'gangbang': case '/gangbang':
                 m.reply(mess.wait)
-                Zero.sendMessage(m.chat, { image: { url:"https://zenzapis.xyz/api/morensfw/gangbang?apikey=7c59f79077"}, caption: `Done` }, { quoted: m})
+                Zero.sendMessage(m.chat, { image: { url:"https://zenzapis.xyz/api/morensfw/gangbang?apikey=e2392d614475"}, caption: `Done` }, { quoted: m})
             break
             case 'nsfwglasses': case '/nsfwglasses': case 'glasses': case '/glasses':
                 m.reply(mess.wait)
-                Zero.sendMessage(m.chat, { image: { url:"https://zenzapis.xyz/api/morensfw/glasses?apikey=7c59f79077"}, caption: `Done` }, { quoted: m})
+                Zero.sendMessage(m.chat, { image: { url:"https://zenzapis.xyz/api/morensfw/glasses?apikey=e2392d614475"}, caption: `Done` }, { quoted: m})
             break
             case 'nsfwhentai': case '/nsfwhentai': case 'hentai': case '/hentai':
                 m.reply(mess.wait)
-                Zero.sendMessage(m.chat, { image: { url:"https://zenzapis.xyz/api/morensfw/hentai?apikey=7c59f79077"}, caption: `Done` }, { quoted: m})
+                Zero.sendMessage(m.chat, { image: { url:"https://zenzapis.xyz/api/morensfw/hentai?apikey=e2392d614475"}, caption: `Done` }, { quoted: m})
             break
             case 'nsfwjahy': case '/nsfwjahy': case 'jahy': case '/jahy':
                 m.reply(mess.wait)
-                Zero.sendMessage(m.chat, { image: { url:"https://zenzapis.xyz/api/morensfw/jahy?apikey=7c59f79077"}, caption: `Done` }, { quoted: m})
+                Zero.sendMessage(m.chat, { image: { url:"https://zenzapis.xyz/api/morensfw/jahy?apikey=e2392d614475"}, caption: `Done` }, { quoted: m})
             break
             case 'nsfwmaid': case '/nsfwmaid': case 'maid': case '/maid':
                 m.reply(mess.wait)
-                Zero.sendMessage(m.chat, { image: { url:"https://zenzapis.xyz/api/morensfw/maid?apikey=7c59f79077"}, caption: `Done` }, { quoted: m})
+                Zero.sendMessage(m.chat, { image: { url:"https://zenzapis.xyz/api/morensfw/maid?apikey=e2392d614475"}, caption: `Done` }, { quoted: m})
             break
             case 'nsfwmanga': case '/nsfwmanga': case 'manga': case '/manga':
                 m.reply(mess.wait)
-                Zero.sendMessage(m.chat, { image: { url:"https://zenzapis.xyz/api/morensfw/manga?apikey=7c59f79077"}, caption: `Done` }, { quoted: m})
+                Zero.sendMessage(m.chat, { image: { url:"https://zenzapis.xyz/api/morensfw/manga?apikey=e2392d614475"}, caption: `Done` }, { quoted: m})
             break
             case 'nsfwmasturbation': case '/nsfwmasturbation': case 'masturbation': case '/masturbation':
                 m.reply(mess.wait)
-                Zero.sendMessage(m.chat, { image: { url:"https://zenzapis.xyz/api/morensfw/ma?apikey=7c59f79077"}, caption: `Done` }, { quoted: m})
+                Zero.sendMessage(m.chat, { image: { url:"https://zenzapis.xyz/api/morensfw/ma?apikey=e2392d614475"}, caption: `Done` }, { quoted: m})
             break
             case 'nsfwmwall': case '/nsfwwall': case 'wallnsfw': case '/wallnsfw':
                 m.reply(mess.wait)
-                Zero.sendMessage(m.chat, { image: { url:"https://zenzapis.xyz/api/morensfw/mobilewall?apikey=7c59f79077"}, caption: `Done` }, { quoted: m})
+                Zero.sendMessage(m.chat, { image: { url:"https://zenzapis.xyz/api/morensfw/mobilewall?apikey=e2392d614475"}, caption: `Done` }, { quoted: m})
             break
             case 'nsfwnetorare': case '/nsfwnetorare': case 'netorare': case '/netorare':
                 m.reply(mess.wait)
-                Zero.sendMessage(m.chat, { image: { url:"https://zenzapis.xyz/api/morensfw/netorare?apikey=7c59f79077"}, caption: `Done` }, { quoted: m})
+                Zero.sendMessage(m.chat, { image: { url:"https://zenzapis.xyz/api/morensfw/netorare?apikey=e2392d614475"}, caption: `Done` }, { quoted: m})
             break
             case 'nsfwmneko': case '/nsfwneko': case 'nekonsfw': case '/nekonsfw':
                 m.reply(mess.wait)
-                Zero.sendMessage(m.chat, { image: { url:"https://zenzapis.xyz/api/morensfw/nsfwneko?apikey=7c59f79077"}, caption: `Done` }, { quoted: m})
+                Zero.sendMessage(m.chat, { image: { url:"https://zenzapis.xyz/api/morensfw/nsfwneko?apikey=e2392d614475"}, caption: `Done` }, { quoted: m})
             break
             case 'nsfwmorgy': case '/nsfworgy': case 'orgy': case '/orgy':
                 m.reply(mess.wait)
-                Zero.sendMessage(m.chat, { image: { url:"https://zenzapis.xyz/api/morensfw/orgy?apikey=7c59f79077"}, caption: `ahegao` }, { quoted: m})
+                Zero.sendMessage(m.chat, { image: { url:"https://zenzapis.xyz/api/morensfw/orgy?apikey=e2392d614475"}, caption: `ahegao` }, { quoted: m})
             break
             case 'nsfwmpanties': case '/nsfwpanties': case 'panties': case '/panties':
                 m.reply(mess.wait)
-                Zero.sendMessage(m.chat, { image: { url:"https://zenzapis.xyz/api/morensfw/panties?apikey=7c59f79077"}, caption: `ahegao` }, { quoted: m})
+                Zero.sendMessage(m.chat, { image: { url:"https://zenzapis.xyz/api/morensfw/panties?apikey=e2392d614475"}, caption: `ahegao` }, { quoted: m})
             break
             case 'nsfwpussy': case '/nsfwpussy': case 'pussy': case '/pussy':
                 m.reply(mess.wait)
-                Zero.sendMessage(m.chat, { image: { url:"https://zenzapis.xyz/api/morensfw/pussy?apikey=7c59f79077"}, caption: `ahegao` }, { quoted: m})
+                Zero.sendMessage(m.chat, { image: { url:"https://zenzapis.xyz/api/morensfw/pussy?apikey=e2392d614475"}, caption: `ahegao` }, { quoted: m})
             break
             case 'nsfwtentacles': case '/nsfwtentacles': case 'tentacles': case '/tentacles':
                 m.reply(mess.wait)
-                Zero.sendMessage(m.chat, { image: { url:"https://zenzapis.xyz/api/morensfw/tentacles?apikey=7c59f79077"}, caption: `ahegao` }, { quoted: m})
+                Zero.sendMessage(m.chat, { image: { url:"https://zenzapis.xyz/api/morensfw/tentacles?apikey=e2392d614475"}, caption: `ahegao` }, { quoted: m})
             break
             case 'nsfwthighs': case '/nsfwthighs': case 'thighs': case '/thighs':
                 m.reply(mess.wait)
-                Zero.sendMessage(m.chat, { image: { url:"https://zenzapis.xyz/api/morensfw/thighs?apikey=7c59f79077"}, caption: `ahegao` }, { quoted: m})
+                Zero.sendMessage(m.chat, { image: { url:"https://zenzapis.xyz/api/morensfw/thighs?apikey=e2392d614475"}, caption: `ahegao` }, { quoted: m})
             break
             case 'nsfwyuri': case '/nsfwyuri': case 'yuri': case '/yuri':
                 m.reply(mess.wait)
-                Zero.sendMessage(m.chat, { image: { url:"https://zenzapis.xyz/api/morensfw/yuri?apikey=7c59f79077"}, caption: `ahegao` }, { quoted: m})
+                Zero.sendMessage(m.chat, { image: { url:"https://zenzapis.xyz/api/morensfw/yuri?apikey=e2392d614475"}, caption: `ahegao` }, { quoted: m})
             break
             case 'zettairyouiki': case '/zettairyouiki':
                 m.reply(mess.wait)
-                Zero.sendMessage(m.chat, { image: { url:"https://zenzapis.xyz/api/morensfw/zettairyouiki?apikey=7c59f79077"}, caption: `ahegao` }, { quoted: m})
+                Zero.sendMessage(m.chat, { image: { url:"https://zenzapis.xyz/api/morensfw/zettairyouiki?apikey=e2392d614475"}, caption: `ahegao` }, { quoted: m})
             break
             //NSFW//
       case '/dog' : case 'randomdog':
@@ -3958,14 +3958,14 @@ case 'firework': case 'skeleton': case 'blackpink': case 'sand': case 'glue': ca
             break
             case '/animememe': case '/animejoke':
             m.reply(mess.wait)
-            axios.get('https://zenzapis.xyz/randomanime/animeme?apikey=7c59f79077')
+            axios.get('https://zenzapis.xyz/randomanime/animeme?apikey=e2392d614475')
             .then(({data}) => {
             Zero.sendImage(m.chat, data.result.image, mess.success, m)
             })
             break
             case '/animecouple': case '/animecouplepp': case 'animecouple': case 'animecouplepp':
             m.reply(mess.wait)
-            axios.get('https://zenzapis.xyz/randomanime/couples?apikey=7c59f79077')
+            axios.get('https://zenzapis.xyz/randomanime/couples?apikey=e2392d614475')
             .then(({data}) => {
             Zero.sendImage(m.chat, data.result.male, mess.success, m)
             Zero.sendImage(m.chat, data.result.female, mess.success, m)
@@ -4193,7 +4193,7 @@ case 'roast':
 "You do realize we tolerate you.",
                
             ]
-            if (!text) return replay(`Tag Someone, Example : ${prefix + command} @Zero`)
+            if (!text) return reply(`Tag Someone, Example : ${prefix + command} @Zero`)
                           const xeonroast = roast[Math.floor(Math.random() * roast.length)]
                           Zero.sendMessage(m.chat, { text:`\nName : ${q}\n*❅${xeonroast}❅*` }, { quoted: m })
                           break
